@@ -1,0 +1,7 @@
+3000    success
+3001    post data error!
+3002    json error
+3003    empty post data
+3004    db error
+3005    no data
+3006    necessary data is None

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .container{width:1200px;height:800px; margin:0 auto;}
+
+    </style>
+</head>
+<body>
+
+<div class="container" id="myChart"></div>
+
+<script src="js/echart.min.js"></script>
+<script src="js/macarons.js"></script>
+<script>
+
+    option = {
+        title: {
+            text: '折线图堆叠'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['周一','周二','周三','周四','周五','周六','周日']
+        },
+        yAxis: {
+            type: 'value'
+        },
+        series: [
+            {
+                name:'邮件营销',
+                type:'line',
+                stack: '总量',
+                data:[120, 132, 101, 134, 90, 230, 210]
+            }
+        ]
+    };
+
+
+    var chartContainer = document.getElementById("myChart");
+    //加载图表
+    var myChart = echarts.init(chartContainer,'macarons');
+    myChart.setOption(option);
+
+</script>
+
+</body>
+</html>
