@@ -65,7 +65,7 @@ class Virus(db.Model):
     name = db.Column('name', db.String(32), nullable=False)
     serial_number = db.Column(
         'serial_number', db.String(32),
-        index=True, nullable=False)
+        index=True, unique=True, nullable=False)
     gene_type = db.Column('gene_type', db.String(16), nullable=True)
     location = db.Column('location', db.String(32), nullable=True)
     time = db.Column('time', db.Integer, nullable=True)
@@ -96,7 +96,7 @@ class News(db.Model):
         'report_time',
         db.TIMESTAMP,
      server_default=text('now()'))
-    title = db.Column('title', db.String(32), index=True, nullable=False)
+    title = db.Column('title', db.String(32), index=True, unique=True, nullable=False)
     infections = db.Column('infections', db.Integer, nullable=True)
     fk_virus_type = db.Column('fk_virus_type', db.String(32), nullable=True)
     web_url = db.Column('web_url', db.Text, nullable=True)

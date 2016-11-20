@@ -11,15 +11,18 @@ from .. import redis_store
 def login_check(f):
     @wraps(f)
     def decorator(*args, **kwargs):
-        token = request.values.get('token')
+        if request.method == 'GET':
+            token = request.values.get('token')
+        else:
+            token = request.json.get('token')
         if not token:
             return rw(cs.NO_TOKEN)
-        email = redis_store.get('token:%s' % token)
+        username = redis_store.get('token:%s' % token)
         # single login
         # if not email or token != redis_store.hget('user:%s' % email, 'token'):
-        if not email:
+        if not username:
             return rw(cs.TOKEN_EXPIRE)
-        if redis_store.hget('user:%s' % email, 'temp') == 1:
+        if redis_store.hget('user:%s' % username, 'temp') == 1:
             return rw(cs.TEMP_TOKEN)
         return f(*args, **kwargs)
     return decorator

@@ -5,6 +5,7 @@ SERVER_ERR = 1001
 LOGIN_FAIL = 1200
 NOT_ALLOW = 1803
 COMMITED = 1804
+SAME_COMMIT = 1805
 REGISTERED = 1100
 NO_USER = 1101
 NO_DATA = 1808
@@ -24,6 +25,7 @@ ERR_MSG = {
     1200: '登录失败',
     1803: '没有权限',
     1804: '已经提交',
+    1805: '重复提交',
     1100: '已经注册',
     1101: '没有用户',
     1808: '空',

@@ -14,6 +14,29 @@ HOST: http://127.0.0.1:5000/
 1200：密码错误；
 1201：token不存在；
 
+## Logout [/logout?{token}]
+
+### Logout [POST]
+
++ Parameters
+    + token (string) ... token；
+
++ Response 200 (application/json)
+
+    + Headers
+
+            Location: /logout
+
+    + Body
+
+            {
+                "code": "1000",
+                "msg": "success!",
+                "data": {
+                }
+            }
+
+
 ## Login [/login]
 
 ### Login [POST]
@@ -147,6 +170,38 @@ Login with username, password(password执行过一次md5的加密).
                     }
                 }
             }
+
+
+### Create An Virus [POST]
+
++ Request (application/json)
+
+        {
+            "token": "1233-2121sadsa-2131dsad-21sas",
+            "name": "asadad",
+            "serial_name": "2016-09-13",
+            "gene_type": "sada",
+            "location": 23,
+            "time": "http://baidu.com",
+            "source": "1",
+            "sequence_length": 123,
+        }
+
++ Response 200 (application/json)
+
+    + Headers
+
+            Location: /papers
+
+    + Body
+
+            {
+                "code": "1000",
+                "msg": "success!",
+                "data": {
+                }
+            }
+
 
 ## News Collection [/news]
 

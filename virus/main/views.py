@@ -11,6 +11,7 @@ View module for Virus system.
 import hashlib
 import time
 from sqlalchemy.sql import text
+import sqlalchemy.exc
 import datetime
 from flask import request, g, url_for, redirect, current_app, send_from_directory
 from . import main
@@ -40,12 +41,15 @@ __date__ = "2016-11-03"
 # =================
 @main.before_request
 def before_request():
-    token = request.values.get('token')
-    email = redis_store.get('token:%s' % token)
-    if email:
-        g.current_user = User.query.filter_by(email=email).first()
+    if request.method == 'GET':
+        token = request.values.get('token')
+    else:
+        token = request.json.get('token')
+    username = redis_store.get('token:%s' % token)
+    if username:
+        g.current_user = User.query.filter_by(username=username).first()
         redis_store.expire('token:%s' % token, current_app.config['TOKEN_EXPIRE'])
-        redis_store.expire('token_set:%s' % email, current_app.config['TOKEN_EXPIRE'])
+        redis_store.expire('token_set:%s' % username, current_app.config['TOKEN_EXPIRE'])
     return
 
 
@@ -63,13 +67,6 @@ def send_file(path):
 
 
 @main.route('/')
-@request_info
-def index():
-    return redirect(url_for('.index', _external=True) +
-                    current_app.config['FRONT_URL'] + 'login.html')
-
-# User actions
-# ============
 @main.route('/users', methods=['POST'])
 @request_info
 def register():
@@ -94,7 +91,6 @@ def login():
     C002 - login api
     '''
 
-    print request.get_data()
     #import pdb; pdb.set_trace()
     username = request.json.get('username')
     user = User.query.filter_by(username=username).first()
@@ -124,7 +120,7 @@ def login():
     redis_store.set('token:%s' % token, user.username)
     redis_store.expire('token:%s' % token, current_app.config['TOKEN_EXPIRE'])
 
-    return rw(cs.OK, {'token':token})
+    return rw(cs.OK, {'token':token, 'role':user.role})
 
 
 @main.route('/logout', methods=['POST'])
@@ -138,7 +134,59 @@ def logout():
     user = g.current_user
     token = request.json.get('token')
     redis_store.delete('token:%s' % token)
-    redis_store.hmset('user:%s' % user.email, {'app_online': 0})
+    redis_store.hmset('user:%s' % user.username, {'app_online': 0})
+    return rw(cs.OK)
+
+
+@main.route('/')
+@main.route('/virus', methods=['POST'])
+@request_info
+def insert_virus():
+    '''
+    C001 - insert virus api
+    '''
+    v = Virus()
+    v.name = request.json.get('name')
+    v.serial_number = request.json.get('serial_number')
+    v.gene_type = request.json.get('gene_type')
+    v.location = request.json.get('location')
+    v.time = request.json.get('time')
+    v.source = request.json.get('source')
+    v.sequence_length = request.json.get('sequence_length')
+    # virus_obj = Virus.query.filter_by(serial_number=v.serial_number).first()
+    # if virus_obj:
+    #     return rw(cs.SAME_COMMIT)
+    try:
+        db.session.add(v)
+        db.session.commit()
+    except sqlalchemy.exc.DBAPIError:
+        db.session.rollback()
+        logger.debug('Db Exception: %s', (e))
+        return rw(cs.SAME_COMMIT)
+    return rw(cs.OK)
+
+@main.route('/')
+@main.route('/news', methods=['POST'])
+@request_info
+def insert_news():
+    '''
+    C001 - insert news api
+    '''
+    n = News()
+    n.news_type = request.json.get('news_type')
+    report_time = request.json.get('report_time')
+    n.report_time = datetime.datetime.strptime(report_time, "%Y-%m-%d")
+    n.title = request.json.get('title')
+    n.infections = request.json.get('infections')
+    n.fk_virus_type = request.json.get('fk_virus_type')
+    n.web_url = request.json.get('web_url')
+    try:
+        db.session.add(n)
+        db.session.commit()
+    except sqlalchemy.exc.DBAPIError:
+        db.session.rollback()
+        logger.debug('Db Exception: %s', (e))
+        return rw(cs.SAME_COMMIT)
     return rw(cs.OK)
 
 
@@ -151,13 +199,16 @@ def list_all_virus():
     '''
 
     key = request.values.get('key')
-    data = request.values.get('data')
-    #gene_type = request.values.get('gene_type')
-    #source_type = request.values.get('source_type')
-    #location = request.values.get('location')
-    #time = request.values.get('time')
-    statement = '%s=%s' % (key, data)
-    virus_objs = Virus.query.filter(text(statement)).all()
+    if not key:
+        virus_objs = Virus.query.all()
+    else:
+        data = request.values.get('data')
+        #gene_type = request.values.get('gene_type')
+        #source_type = request.values.get('source_type')
+        #location = request.values.get('location')
+        #time = request.values.get('time')
+        statement = '%s=%s' % (key, data)
+        virus_objs = Virus.query.filter(text(statement)).all()
     send = [item.to_dict() for item in virus_objs]
     return rw(cs.OK, send)
 
@@ -195,6 +246,7 @@ def list_all_news():
         dic = item.to_dict()
         send.append(dic)
     return rw(cs.OK, send)
+
 
 @main.route('/papers', methods=['GET'])
 # @login_check
