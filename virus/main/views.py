@@ -13,12 +13,13 @@ import time
 from sqlalchemy.sql import text
 import sqlalchemy.exc
 import datetime
-from flask import request, g, url_for, redirect, current_app, send_from_directory
+from flask import request, g, url_for, redirect, current_app, send_from_directory, Response
 from . import main
 from .. import db, redis_store
 from ..models import User, Virus, News, Paper
 from tools import resq_wrapper as rw, gen_random_password, gen_password_hash
 from info import logger
+from request_response import request_data
 from wrap import login_check, inner_role_check, normal_role_check, request_info
 import constant as cs
 
@@ -41,6 +42,12 @@ __date__ = "2016-11-03"
 # =================
 @main.before_request
 def before_request():
+    if request.method == 'OPTIONS':
+        headers = {"Access-Control-Allow-Origin": "*",
+                                     "Access-Control-Allow-Headers":
+                                     "Origin, X-Requested-With, Content-Type, Accept, X-ID, X-TOKEN, X-ANY-YOUR-CUSTOM-HEADER",
+                                     "Access-Control-Allow-Methods": "POST, PUT, GET, OPTIONS, DELETE"}
+        return Response(status=200, mimetype='application/json', headers=headers)
     if request.method == 'GET':
         token = request.values.get('token')
     else:
@@ -138,7 +145,6 @@ def logout():
     return rw(cs.OK)
 
 
-@main.route('/')
 @main.route('/virus', methods=['POST'])
 @request_info
 def insert_virus():
@@ -146,44 +152,47 @@ def insert_virus():
     C001 - insert virus api
     '''
     v = Virus()
-    v.name = request.json.get('name')
-    v.serial_number = request.json.get('serial_number')
-    v.gene_type = request.json.get('gene_type')
-    v.location = request.json.get('location')
-    v.time = request.json.get('time')
-    v.source = request.json.get('source')
-    v.sequence_length = request.json.get('sequence_length')
+    input_data = request_data()
+    if 'id' in input_data:
+        del input_data['id']
+    for item in input_data.keys():
+        setattr(v, str(item), input_data[item])
+    # v.name = request.json.get('name')
+    # v.serial_number = request.json.get('serial_number')
+    # v.gene_type = request.json.get('gene_type')
+    # v.location = request.json.get('location')
+    # v.time = request.json.get('time')
+    # v.source = request.json.get('source')
+    # v.sequence_length = request.json.get('sequence_length')
     # virus_obj = Virus.query.filter_by(serial_number=v.serial_number).first()
     # if virus_obj:
     #     return rw(cs.SAME_COMMIT)
     try:
         db.session.add(v)
         db.session.commit()
-    except sqlalchemy.exc.DBAPIError:
+    except sqlalchemy.exc.IntegrityError:
         db.session.rollback()
         logger.debug('Db Exception: %s', (e))
         return rw(cs.SAME_COMMIT)
     return rw(cs.OK)
 
-@main.route('/')
 @main.route('/news', methods=['POST'])
 @request_info
 def insert_news():
     '''
     C001 - insert news api
     '''
+    # import pdb; pdb.set_trace()  # XXX BREAKPOINT
     n = News()
-    n.news_type = request.json.get('news_type')
-    report_time = request.json.get('report_time')
-    n.report_time = datetime.datetime.strptime(report_time, "%Y-%m-%d")
-    n.title = request.json.get('title')
-    n.infections = request.json.get('infections')
-    n.fk_virus_type = request.json.get('fk_virus_type')
-    n.web_url = request.json.get('web_url')
+    input_data = request_data()
+    if 'id' in input_data:
+        del input_data['id']
+    for item in input_data.keys():
+        setattr(n, str(item), input_data[item])
     try:
         db.session.add(n)
         db.session.commit()
-    except sqlalchemy.exc.DBAPIError:
+    except sqlalchemy.exc.IntegrityError,e:
         db.session.rollback()
         logger.debug('Db Exception: %s', (e))
         return rw(cs.SAME_COMMIT)
@@ -198,19 +207,35 @@ def list_all_virus():
     C005 - list all virus information.
     '''
 
-    key = request.values.get('key')
-    if not key:
-        virus_objs = Virus.query.all()
+    # orf = request.values.get('orf')
+    # accesion = request.values.get('accesion')
+    # country = request.values.get('country')
+    # isolate_t = request.values.get('isolate_t')
+    input_data = request_data()
+    page_size = input_data.get('page_size')
+    page_index = input_data.get('page_index')
+    # import pdb; pdb.set_trace()  # XXX BREAKPOINT
+    keys = input_data.keys()
+    if "token" in keys:
+        keys.remove('token')
+    if "page_size" in keys:
+        keys.remove('page_size')
+    if "page_index" in keys:
+        keys.remove('page_index')
+    if not keys:
+        virus_objs = Virus.query.paginate(int(page_index), int(page_size), False)
+        count = Virus.query.count()
+    elif len(keys) == 1:
+        statement = "%s='%s'" % (keys[0],input_data[keys[0]])
+        count = Virus.query.filter(text(statement)).count()
+        virus_objs = Virus.query.filter(text(statement)).paginate(int(page_index), int(page_size), False)
     else:
-        data = request.values.get('data')
-        #gene_type = request.values.get('gene_type')
-        #source_type = request.values.get('source_type')
-        #location = request.values.get('location')
-        #time = request.values.get('time')
-        statement = '%s=%s' % (key, data)
-        virus_objs = Virus.query.filter(text(statement)).all()
-    send = [item.to_dict() for item in virus_objs]
-    return rw(cs.OK, send)
+        statement = ' and '.join(["%s='%s'" % (item, input_data[item]) for item in keys])
+        virus_objs = Virus.query.filter(text(statement)).paginate(int(page_index), int(page_size), False)
+        count = Virus.query.filter(text(statement)).count()
+    send = [item.to_dict() for item in virus_objs.items]
+    dic = { 'count': count, 'virus': send}
+    return rw(cs.OK, dic)
 
 
 @main.route('/virus/<id>')
@@ -233,19 +258,31 @@ def list_all_news():
     C005 - list all news information.
     '''
 
-    page_size = request.values.get('page_size')
-    page_index = request.values.get('page_index')
-    news_objs = News.query.order_by(db.desc(News.create_time)).paginate(int(page_index), int(page_size), False)
-    count = News.query.count()
-    if not count:
-        return rw(cs.OK)
-
-    send = []
-    # for item in commits:
-    for item in news_objs.items:
-        dic = item.to_dict()
-        send.append(dic)
-    return rw(cs.OK, send)
+    input_data = request_data()
+    page_size = input_data.get('page_size')
+    page_index = input_data.get('page_index')
+    # import pdb; pdb.set_trace()  # XXX BREAKPOINT
+    keys = input_data.keys()
+    if "token" in keys:
+        keys.remove('token')
+    if "page_size" in keys:
+        keys.remove('page_size')
+    if "page_index" in keys:
+        keys.remove('page_index')
+    if not keys:
+        news_objs = News.query.paginate(int(page_index), int(page_size), False)
+        count = News.query.count()
+    elif len(keys) == 1:
+        statement = "%s='%s'" % (keys[0],input_data[keys[0]])
+        count = News.query.filter(text(statement)).count()
+        news_objs = News.query.filter(text(statement)).paginate(int(page_index), int(page_size), False)
+    else:
+        statement = ' and '.join(["%s='%s'" % (item, input_data[item]) for item in keys])
+        news_objs = News.query.filter(text(statement)).paginate(int(page_index), int(page_size), False)
+        count = News.query.filter(text(statement)).count()
+    send = [item.to_dict() for item in news_objs.items]
+    dic = { 'count': count, 'news': send}
+    return rw(cs.OK, dic)
 
 
 @main.route('/papers', methods=['GET'])

@@ -64,5 +64,7 @@ def request_info(f):
             logger.info('Response:%s', response_info)
         else:
             logger.debug('Response:%s', response_info)
+        # import pdb; pdb.set_trace()  # XXX BREAKPOINT
+        func_return.headers.__dict__.get('_list').append(("Access-Control-Allow-Origin", "*"))
         return func_return
     return decorator

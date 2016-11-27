@@ -1,1 +1,1 @@
-mysql -u root -p < schema.sql
+mysql -u root -proot123 < schema.sql

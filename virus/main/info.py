@@ -5,7 +5,7 @@ logger = logging.getLogger('run')
 logger.setLevel(logging.DEBUG)
 
 fh = RotatingFileHandler('info.log', encoding='UTF-8', maxBytes=1024*1024*50, backupCount=5)
-fh.setLevel(logging.DEBUG)
+ch = logging.StreamHandler()
 
 # formatter = logging.Formatter('''
 #     Time:               %(asctime)s
@@ -14,6 +14,8 @@ fh.setLevel(logging.DEBUG)
 # ''')
 formatter = logging.Formatter('%(asctime)s - %(lineno)d - %(message)s')
 fh.setFormatter(formatter)
+ch.setFormatter(formatter)
 
 logger.addHandler(fh)
+logger.addHandler(ch)
 # logger.info('hello')

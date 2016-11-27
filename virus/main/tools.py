@@ -8,6 +8,10 @@ import string
 import constant as cs
 
 
+headers = {"Access-Control-Allow-Origin": "*",
+                              "Access-Control-Allow-Headers":
+                              "Origin, X-Requested-With, Content-Type, Accept, X-ID, X-TOKEN, X-ANY-YOUR-CUSTOM-HEADER",
+                              "Access-Control-Allow-Methods": "POST, PUT, GET, OPTIONS, DELETE"}
 def resq_wrapper(code,rval=None):
     return jsonify({'code':code,'msg':cs.ERR_MSG[code],'data':rval})
 

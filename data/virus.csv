@@ -1,0 +1,565 @@
+Accesion,Sample ,Source,Country,Isolate time,Submit time,Reference,Length,ORF
+AB009390,Oyster,Oyster,Japan,1994,2006,2,292,
+AB097905,Oyster,Oyster,Japan,2001,2002,5,255,GII.8
+AB097906,Oyster,Oyster,Japan,2001,2002,5,339,GII.1
+AB097907,Oyster,Oyster,Japan,2001,2002,5,277,GII.8
+AB097908,Oyster,Oyster,Japan,2001,2002,5,270,GII.6
+AB097909,Oyster,Oyster,Japan,2001,2002,5,272,GII.6
+AB097910,Oyster,Oyster,Japan,2001,2002,5,330,GII.13
+AB097911,Oyster,Oyster,Japan,2001,2002,5,323,GI.3
+AB097912,Oyster,Oyster,Japan,2002,2002,5,302,GII.3
+AB097913,Oyster,Oyster,Japan,2001,2002,5,280,GI.4
+AB097914,Oyster,Oyster,Japan,2001,2002,5,272,GII.6
+AB097915,Oyster,Oyster,Japan,2001,2002,5,267,GII.8
+AB097916,Oyster,Oyster,Japan,2001,2002,5,339,GII.7
+AB097917,Oyster,Oyster,Japan,2002,2002,5,261,GII.7
+AB097918,Oyster,Oyster,Japan,2002,2002,5,324,GII.3
+AB097919,Oyster,Oyster,Japan,2002,2002,5,324,GII.6
+AB097920,Oyster,Oyster,Japan,2002,2002,5,302,GI.7
+AB097921,Oyster,Oyster,Japan,2002,2002,5,316,GII.5
+AB111894,Oyster,Oyster,Japan,2002,2002,5,302,GII.6
+AB111895,Oyster,Oyster,Japan,2002,2002,5,291,GI.4
+AB111896,Oyster,Oyster,Japan,2002,2002,5,302,GII.5
+AB262091,Oyster,Oyster,Japan,2002,2006,6,279,GII.5
+AB262092,Oyster,Oyster,Japan,2002,2006,6,279,GII.4
+AB262093,Oyster,Oyster,Japan,2002,2006,6,290,Could not assign
+AB262094,Oyster,Oyster,Japan,2002,2006,6,281,Could not assign
+AB262095,Oyster,Oyster,Japan,2002,2006,6,281,Could not assign
+AB262096,Oyster,Oyster,Japan,2002,2006,6,275,GII.6
+AB262097,Oyster,Oyster,Japan,2002,2006,6,278,GII.4
+AB262098,Oyster,Oyster,Japan,2002,2006,6,278,GII.13
+AB262099,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262100,Oyster,Oyster,Japan,2003,2006,6,244,GII.3
+AB262101,Oyster,Oyster,Japan,2003,2006,6,244,GII.3
+AB262102,Oyster,Oyster,Japan,2003,2006,6,244,GII.3
+AB262103,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262104,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262105,Oyster,Oyster,Japan,2003,2006,6,278,GII.6
+AB262106,Oyster,Oyster,Japan,2003,2006,6,290,GI.2
+AB262107,Oyster,Oyster,Japan,2003,2006,6,290,GI.2
+AB262108,Oyster,Oyster,Japan,2003,2006,6,290,Could not assign
+AB262109,Oyster,Oyster,Japan,2003,2006,6,278,GII.4
+AB262110,Oyster,Oyster,Japan,2003,2006,6,298,GI.4
+AB262111,Oyster,Oyster,Japan,2003,2006,6,298,GI.4
+AB262112,Oyster,Oyster,Japan,2003,2006,6,298,GI.4
+AB262113,Oyster,Oyster,Japan,2003,2006,6,290,GI.4
+AB262114,Oyster,Oyster,Japan,2003,2006,6,278,GII.8
+AB262115,Oyster,Oyster,Japan,2003,2006,6,279,GII.5
+AB262116,Oyster,Oyster,Japan,2003,2006,6,278,GII.8
+AB262117,Oyster,Oyster,Japan,2003,2006,6,310,GI.3
+AB262118,Oyster,Oyster,Japan,2003,2006,6,313,GI.3
+AB262119,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262120,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262121,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262122,Oyster,Oyster,Japan,2003,2006,6,278,GII.5
+AB262123,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262124,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262125,Oyster,Oyster,Japan,2003,2006,6,278,GII.5
+AB262126,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262127,Oyster,Oyster,Japan,2003,2006,6,278,GII.5
+AB262128,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262129,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262130,Oyster,Oyster,Japan,2003,2006,6,278,GII.5
+AB262131,Oyster,Oyster,Japan,2003,2006,6,278,GII.5
+AB262132,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262133,Oyster,Oyster,Japan,2003,2006,6,278,GII.5
+AB262134,Oyster,Oyster,Japan,2003,2006,6,277,GII.5
+AB262135,Oyster,Oyster,Japan,2003,2006,6,283,GII.2
+AB262136,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262137,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262138,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262139,Oyster,Oyster,Japan,2003,2006,6,278,GII.3
+AB262140,Oyster,Oyster,Japan,2003,2006,6,287,GII.3
+AB262141,Oyster,Oyster,Japan,2003,2006,6,290,GI.5
+AB262142,Oyster,Oyster,Japan,2003,2006,6,290,Could not assign
+AB262143,Oyster,Oyster,Japan,2004,2006,6,290,Could not assign
+AB262144,Oyster,Oyster,Japan,2004,2006,6,278,GII.5
+AB262145,Oyster,Oyster,Japan,2004,2006,6,278,GII.5
+AB262146,Oyster,Oyster,Japan,2004,2006,6,283,GII.2
+AB262147,Oyster,Oyster,Japan,2004,2006,6,278,GII.5
+AB262148,Oyster,Oyster,Japan,2004,2006,6,283,GII.2
+AB262149,Oyster,Oyster,Japan,2004,2006,6,283,GII.2
+AB262150,Oyster,Oyster,Japan,2004,2006,6,290,GI.1
+AB262151,Oyster,Oyster,Japan,2004,2006,6,290,Could not assign
+AB262152,Oyster,Oyster,Japan,2004,2006,6,278,GII.3
+AB262153,Oyster,Oyster,Japan,2004,2006,6,290,Could not assign
+AB262154,Oyster,Oyster,Japan,2004,2006,6,290,GI.1
+AB262155,Oyster,Oyster,Japan,2004,2006,6,290,Could not assign
+AB262156,Oyster,Oyster,Japan,2005,2006,6,290,GI.1
+AB262157,Oyster,Oyster,Japan,2005,2006,6,290,GI.1
+AB262158,Oyster,Oyster,Japan,2005,2006,6,290,Could not assign
+AB262159,Oyster,Oyster,Japan,2005,2006,6,278,GII.4
+AB262160,Oyster,Oyster,Japan,2005,2006,6,278,GII.3
+AB262161,Oyster,Oyster,Japan,2005,2006,6,290,GI.4
+AB262162,Oyster,Oyster,Japan,2005,2006,6,290,GI.4
+AB262163,Oyster,Oyster,Japan,2005,2006,6,290,GI.1
+AB262164,Oyster,Oyster,Japan,2005,2006,6,290,GI.3
+AB262165,Oyster,Oyster,Japan,2005,2006,6,290,GI.3
+AB264147,Oyster,Oyster,Japan,2005,2006,Unpublished,198,Could not assign
+AB264148,Oyster,Oyster,Japan,2005,2006,Unpublished,198,Could not assign
+AB264149,Oyster,Oyster,Japan,2005,2006,Unpublished,199,GI.3
+AB264150,Oyster,Oyster,Japan,2005,2006,Unpublished,199,GI.4
+AB264151,Oyster,Oyster,Japan,2005,2006,Unpublished,207,GI.1
+AB264152,Oyster,Oyster,Japan,2005,2006,Unpublished,199,GI.3
+AB264153,Oyster,Oyster,Japan,2005,2006,Unpublished,208,GI.4
+AB264154,Oyster,Oyster,Japan,2005,2006,Unpublished,208,GI.4
+AB264155,Oyster,Oyster,Japan,2005,2006,Unpublished,198,GI.1
+AB264156,Oyster,Oyster,Japan,2005,2006,Unpublished,198,Could not assign
+AB264157,Oyster,Oyster,Japan,2005,2006,Unpublished,208,GI.4
+AB264158,Oyster,Oyster,Japan,2005,2006,Unpublished,198,GI.1
+AB264159,Oyster,Oyster,Japan,2005,2006,Unpublished,191,GI.4
+AB264160,Oyster,Oyster,Japan,2005,2006,Unpublished,210,GI.4
+AB264161,Oyster,Oyster,Japan,2005,2006,Unpublished,198,GI.3
+AB264162,Oyster,Oyster,Japan,2005,2006,Unpublished,198,GI.3
+AB264163,Oyster,Oyster,Japan,2005,2006,Unpublished,197,Could not assign
+AB264164,Oyster,Oyster,Japan,2005,2006,Unpublished,198,GI.3
+AB264165,Oyster,Oyster,Japan,2005,2006,Unpublished,208,GI.4
+AB264166,Oyster,Oyster,Japan,2006,2006,Unpublished,207,GI.4
+AB264167,Oyster,Oyster,Japan,2006,2006,Unpublished,208,GI.4
+AB264168,Oyster,Oyster,Japan,2006,2006,Unpublished,198,GI.3
+AB264169,Oyster,Oyster,Japan,2006,2006,Unpublished,205,GI.4
+AB264170,Oyster,Oyster,Japan,2006,2006,Unpublished,206,GI.4
+AB287444,Oyster,Oyster,Japan,2005,2006,Unpublished,143,GII.3
+AB287445,Oyster,Oyster,Japan,2006,2006,Unpublished,162,GII.3
+AB287446,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287447,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287448,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287449,Oyster,Oyster,Japan,2006,2006,Unpublished,149,GII.6
+AB287450,Oyster,Oyster,Japan,2006,2006,Unpublished,167,GII.6
+AB287451,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287452,Oyster,Oyster,Japan,2006,2006,Unpublished,170,GII.4
+AB287453,Oyster,Oyster,Japan,2006,2006,Unpublished,168,GII.3
+AB287454,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.3
+AB287455,Oyster,Oyster,Japan,2006,2006,Unpublished,170,GII.4
+AB287456,Oyster,Oyster,Japan,2005,2006,Unpublished,167,GII.8
+AB287457,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.6
+AB287458,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.3
+AB287459,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287460,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287461,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287462,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.3
+AB287463,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287464,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287465,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287466,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287467,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287468,Oyster,Oyster,Japan,2006,2006,Unpublished,166,GII.6
+AB287469,Oyster,Oyster,Japan,2006,2006,Unpublished,154,GII.4
+AB287470,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.3
+AB287471,Oyster,Oyster,Japan,2006,2006,Unpublished,170,GII.6
+AB287472,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287473,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287474,Oyster,Oyster,Japan,2005,2006,Unpublished,168,GII.6
+AB287475,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287476,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287477,Oyster,Oyster,Japan,2005,2006,Unpublished,150,GII.5
+AB287478,Oyster,Oyster,Japan,2005,2006,Unpublished,172,GII.4
+AB287479,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287480,Oyster,Oyster,Japan,2005,2006,Unpublished,167,GII.4
+AB287481,Oyster,Oyster,Japan,2005,2006,Unpublished,168,GII.6
+AB287482,Oyster,Oyster,Japan,2005,2006,Unpublished,171,Could not assign
+AB287483,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.6
+AB287484,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.6
+AB287485,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.6
+AB287486,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.6
+AB287487,Oyster,Oyster,Japan,2005,2006,Unpublished,168,GII.4
+AB287488,Oyster,Oyster,Japan,2005,2006,Unpublished,167,Could not assign
+AB287489,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.4
+AB287490,Oyster,Oyster,Japan,2005,2006,Unpublished,170,GII.4
+AB287491,Oyster,Oyster,Japan,2005,2006,Unpublished,182,GII.4
+AB287492,Oyster,Oyster,Japan,2005,2006,Unpublished,169,GII.6
+AB287493,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287494,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287495,Oyster,Oyster,Japan,2006,2006,Unpublished,170,GII.4
+AB287496,Oyster,Oyster,Japan,2006,2006,Unpublished,168,GII.3
+AB287497,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.4
+AB287498,Oyster,Oyster,Japan,2006,2006,Unpublished,171,GII.4
+AB287499,Oyster,Oyster,Japan,2006,2006,Unpublished,170,GII.3
+AB287500,Oyster,Oyster,Japan,2006,2006,Unpublished,168,GII.5
+AB287501,Oyster,Oyster,Japan,2006,2006,Unpublished,175,GII.3
+AB287502,Oyster,Oyster,Japan,2006,2006,Unpublished,170,GII.4
+AB287503,Oyster,Oyster,Japan,2006,2006,Unpublished,168,GII.6
+AB287504,Oyster,Oyster,Japan,2006,2006,Unpublished,168,GII.3
+AB287505,Oyster,Oyster,Japan,2006,2006,Unpublished,173,GII.4
+AB287506,Oyster,Oyster,Japan,2006,2006,Unpublished,169,GII.3
+AB428374,Human,Oyster,Japan,2008,2008,Unpublished,291,GI.3
+ASPB0111_39451_seq_1,Human,Oyster,Spain,2011,2013,Noronet,279,GII.4
+ASPB0111b_39452_seq_1,Human,Oyster,Spain,2011,2013,Noronet,259,GII.7
+ASPB0111c_42080_seq_1,Human,Oyster,Spain,2011,2013,Noronet,314,GII.4
+AY219905,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY219906,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY219907,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY219908,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY219909,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY219910,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY219911,Oyster,Oyster,Hong Kong,2002,2003,7,76,
+AY603019,Oyster,Oyster,Netherlands,2000,2004,Unpublished,204,GI.4
+AY603020,Oyster,Oyster,Netherlands,2001,2004,Unpublished,204,GI.1
+AY603021,Oyster,Oyster,Netherlands,2002,2004,Unpublished,204,GI.6
+AY603022,Oyster,Oyster,France,2000,2004,Unpublished,195,
+AY662678,Oyster,Oyster,UK,2004,2004,Unpublished,78,
+AY995577,Oyster,Oyster,Netherlands,2004,2005,Unpublished,150,
+DK_2013_1_42144_seq_1,Human,oysters or raspberries,Denmark,2013,2014,Noronet,299,
+DK_2013_1_42144_seq_2,Human,oysters or raspberries,Denmark,2013,2014,Noronet,1534,GII.4
+DK_2013_2_42145_seq_1,Human,Oyster,Denmark,2013,2014,Noronet,320,
+DK_2013_2_42145_seq_2,Human,Oyster,Denmark,2013,2014,Noronet,195,GII.4
+DK_2013_3_42146_seq_1,Human,Oyster,Denmark,2013,2014,Noronet,290,
+DK_2013_3_42146_seq_2,Human,Oyster,Denmark,2013,2014,Noronet,343,GI.3
+DQ000652,Oyster,Oyster,Netherlands,2004,2005,Unpublished,204,GI.2
+DQ026456,Oyster,Oyster,China,2004,2005,Unpublished,327,
+DQ379713,Human,Oyster,Australia,1983,2006,8,3620,GII.3
+DQ379714,Human,Oyster,Australia,1983,2006,8,3564,GII.13
+DQ379715,Human,Oyster,Australia,1983,2006,8,3814,GII.9
+DQ440544,Oyster,Oyster,Netherlands,2006,2006,Unpublished,285,
+DQ440545,Oyster,Oyster,Netherlands,2006,2006,Unpublished,285,
+DQ452548,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452549,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452550,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452551,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452552,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452553,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452554,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452555,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452556,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452557,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452558,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452559,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452560,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452561,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452562,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452563,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452564,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452565,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452566,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452567,Oyster,Oyster,Canada,2004,2006,9,172,
+DQ452568,Oyster,Oyster,Canada,2004,2006,9,172,
+EF495254,Oyster,Oyster,Germany,2006,2007,Unpublished,271,
+EF495255,Oyster,Oyster,Germany,2006,2007,Unpublished,278,
+EU131188,Oyster,Oyster,France,2006,2007,Unpublished,195,
+EU131190,Oyster,Oyster,France,2006,2007,Unpublished,195,
+EU131191,Oyster,Oyster,France,2006,2007,Unpublished,397,
+EU131192,Oyster,Oyster,France,2006,2007,Unpublished,397,
+EU131193,Oyster,Oyster,France,2006,2007,Unpublished,195,
+EU131194,Oyster,Oyster,France,2006,2007,Unpublished,150,
+EU543169,Oyster,Oyster,France,2008,2008,Unpublished,204,GI.4
+EU543170,Oyster,Oyster,France,2008,2008,Unpublished,195,
+EU543171,Oyster,Oyster,France,2008,2008,Unpublished,195,
+EU543172,Oyster,Oyster,France,2008,2008,Unpublished,150,
+EU543173,Oyster,Oyster,France,2008,2008,Unpublished,204,GI.2
+EU718209,Oyster,Oyster,China,2007,2008,10,327,
+EU718210,Oyster,Oyster,China,2007,2008,10,327,
+EU760380,Oyster,Oyster,China,2008,2008,Unpublished,327,
+EU910582,Oyster,Oyster,USA,2007,2008,11,182,
+FIN_1069_32612_seq_1,Human,Oyster,Finland,2010,2010,Noronet,317,
+FJ384779,Oyster,Oyster,Sweden,2007,2008,12,285,
+FJ384780,Oyster,Oyster,Sweden,2007,2008,12,285,
+FJ384781,Oyster,Oyster,Sweden,2007,2008,12,285,
+FJ384782,Oyster,Oyster,Sweden,2007,2008,12,285,
+FJ384783,Human,Oyster,Sweden,2007,2008,12,3083,GI.1
+FJ796686,Human,Oyster,USA,2008,2009,11,77,
+FJ796687,Oyster,Oyster,USA,2007,2009,11,77,
+FJ796688,Oyster,Oyster,South Korea,2006,2009,11,111,
+FJ796689,Oyster,Oyster,South Korea,2006,2009,11,71,
+GQ200582,Oyster,Oyster,Canada,2008,2009,Unpublished,172,
+GQ200583,Oyster,Oyster,Canada,2009,2009,Unpublished,172,
+GQ200584,Oyster,Oyster,Canada,2009,2009,Unpublished,172,
+GQ401120,Oyster,Oyster,Taiwan,2008,2009,Unpublished,330,GI.4
+GQ401121,Oyster,Oyster,Taiwan,2008,2009,Unpublished,330,GI.4
+GQ401122,Oyster,Oyster,Taiwan,2008,2009,Unpublished,330,GI.3
+GQ401123,Oyster,Oyster,Taiwan,2008,2009,Unpublished,330,GI.4
+GQ401124,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.4
+GQ401125,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.4
+GQ401126,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.4
+GQ401127,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.4
+GQ401128,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.4
+GQ401129,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.4
+GQ401130,Oyster,Oyster,Taiwan,2009,2009,Unpublished,330,GI.3
+GU320061,Oyster,Oyster,Thailand,2005,2009,Unpublished,214,GI.2
+GU320062,Oyster,Oyster,Thailand,2005,2009,Unpublished,260,GI.2
+GU726146,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,66,
+GU726147,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,66,
+GU726148,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,66,
+GU726149,Oyster,Oyster,Hong Kong,2007,2010,Unpublished,66,
+GU726150,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,66,
+GU726151,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,66,
+GU726152,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726153,Oyster,Oyster,Hong Kong,2009,2010,Unpublished,73,
+GU726154,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726155,Oyster,Oyster,Hong Kong,2005,2010,Unpublished,73,
+GU726156,Oyster,Oyster,Hong Kong,2005,2010,Unpublished,73,
+GU726157,Oyster,Oyster,Hong Kong,2007,2010,Unpublished,73,
+GU726158,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726159,Oyster,Oyster,Hong Kong,2004,2010,Unpublished,73,
+GU726160,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726161,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726162,Oyster,Oyster,Hong Kong,2004,2010,Unpublished,73,
+GU726163,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726164,Oyster,Oyster,Hong Kong,2006,2010,Unpublished,73,
+GU726165,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726166,Oyster,Oyster,Hong Kong,2008,2010,Unpublished,73,
+GU726167,Oyster,Oyster,Hong Kong,2006,2010,Unpublished,73,
+GU726168,Oyster,Oyster,Hong Kong,2005,2010,Unpublished,73,
+HM560933,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.4
+HM560934,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.18
+HM560935,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.4
+HM560936,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.4
+HM560937,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.18
+HM560938,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.4
+HM560939,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.18
+HM560940,Oyster,Oyster,Taiwan,2010,2010,Unpublished,342,GII.14
+HM560941,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.3
+HM560942,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.3
+HM560943,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.3
+HM560944,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.12
+HM560945,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.4
+HM560946,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.21
+HM560947,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.6
+HM560948,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.4
+HM560949,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.5
+HM560950,Oyster,Oyster,Taiwan,2010,2010,Unpublished,344,GII.6
+JQ362531,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362532,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362533,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362534,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362535,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362536,Oyster,Oyster,Ireland,2010,2011,3,302,GII.6
+JQ362537,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362538,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362539,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362540,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362541,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362542,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362543,Oyster,Oyster,Ireland,2010,2011,3,302,GII.3
+JQ362544,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362545,Oyster,Oyster,Ireland,2010,2011,3,302,GII.3
+JQ362546,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362547,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362548,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362549,Oyster,Oyster,Ireland,2010,2011,3,302,GII.6
+JQ362550,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362551,Oyster,Oyster,Ireland,2010,2011,3,302,GII.12
+JQ362552,Oyster,Oyster,Ireland,2010,2011,3,302,GII.4
+JQ362553,Oyster,Oyster,Ireland,2010,2011,3,302,GII.3
+JQ362564,Oyster,Oyster,Ireland,2010,2011,3,291,GI.7
+JQ362565,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362566,Oyster,Oyster,Ireland,2010,2011,3,291,GI.5
+JQ362567,Oyster,Oyster,Ireland,2010,2011,3,291,GI.6
+JQ362580,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362581,Oyster,Oyster,Ireland,2010,2011,3,291,GI.7
+JQ362582,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362583,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362584,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362585,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362586,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362587,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362588,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362589,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362590,Oyster,Oyster,Ireland,2010,2011,3,291,GI.6
+JQ362591,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362592,Oyster,Oyster,Ireland,2010,2011,3,291,GI.1
+JQ362593,Oyster,Oyster,Ireland,2010,2011,3,291,GI.4
+JQ362594,Oyster,Oyster,Ireland,2010,2011,3,291,GI.6
+KC262648,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262649,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262650,Oyster,Oyster,South Korea,2012,2012,13,582,GII.2
+KC262651,Oyster,Oyster,South Korea,2012,2012,13,582,GII.4
+KC262652,Oyster,Oyster,South Korea,2012,2012,13,582,GII.2
+KC262653,Oyster,Oyster,South Korea,2012,2012,13,582,GII.2
+KC262654,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262655,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262656,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262657,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262658,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262659,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262660,Oyster,Oyster,South Korea,2011,2012,13,582,GII.4
+KC262661,Oyster,Oyster,South Korea,2011,2012,13,582,GII.4
+KC262662,Oyster,Oyster,South Korea,2011,2012,13,582,GII.4
+KC262663,Oyster,Oyster,South Korea,2012,2012,13,582,GII.2
+KC262664,Oyster,Oyster,South Korea,2011,2012,13,582,GII.4
+KC262665,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262666,Oyster,Oyster,South Korea,2011,2012,13,582,GII.2
+KC262667,Oyster,Oyster,South Korea,2011,2012,13,582,GII.4
+KC954402,Human,Oyster,Ireland,2012,2013,14,291,GI.6
+KC954403,Human,Oyster,Ireland,2012,2013,14,291,GI.2
+KC954404,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954405,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954406,Human,Oyster,Ireland,2012,2013,14,291,GI.6
+KC954407,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954408,Human,Oyster,Ireland,2012,2013,14,291,GI.1
+KC954409,Human,Oyster,Ireland,2012,2013,14,291,GI.6
+KC954410,Human,Oyster,Ireland,2012,2013,14,291,GI.1
+KC954411,Human,Oyster,Ireland,2012,2013,14,291,GI.1
+KC954412,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954413,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954414,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954415,Human,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954416,Oyster,Oyster,Ireland,2010,2013,14,291,GI.4
+KC954417,Oyster,Oyster,Ireland,2010,2013,14,291,GI.4
+KC954418,Oyster,Oyster,Ireland,2010,2013,14,291,GI.4
+KC954419,Oyster,Oyster,Ireland,2010,2013,14,291,GI.4
+KC954420,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954421,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954422,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954423,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954424,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954425,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954426,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954427,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954428,Oyster,Oyster,Ireland,2012,2013,14,291,GI.1
+KC954429,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954430,Oyster,Oyster,Ireland,2012,2013,14,291,GI.4
+KC954431,Oyster,Oyster,Ireland,2012,2013,14,294,Outgroup
+KC954432,Oyster,Oyster,Ireland,2012,2013,14,291,GI.2
+KC954433,Oyster,Oyster,Ireland,2012,2013,14,294,Outgroup
+KC954434,Oyster,Oyster,Ireland,2012,2013,14,291,GI.3
+KC954435,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954436,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954437,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954438,Oyster,Oyster,Ireland,2010,2013,14,302,GII.13
+KC954439,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954440,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954441,Oyster,Oyster,Ireland,2010,2013,14,302,GII.13
+KC954442,Oyster,Oyster,Ireland,2010,2013,14,302,GII.13
+KC954443,Oyster,Oyster,Ireland,2010,2013,14,302,GII.12
+KC954444,Oyster,Oyster,Ireland,2010,2013,14,302,GII.12
+KC954445,Oyster,Oyster,Ireland,2010,2013,14,302,GII.12
+KC954446,Oyster,Oyster,Ireland,2010,2013,14,302,GII.13
+KC954447,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954448,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954449,Oyster,Oyster,Ireland,2010,2013,14,302,GII.3
+KC954450,Oyster,Oyster,Ireland,2010,2013,14,302,GII.13
+KC954451,Oyster,Oyster,Ireland,2010,2013,14,302,GII.13
+KC954452,Oyster,Oyster,Ireland,2010,2013,14,302,GII.4
+KC954453,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954454,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954455,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954456,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954457,Human,Oyster,Ireland,2012,2013,14,302,GII.7
+KC954458,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954459,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954460,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954461,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954462,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954463,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954464,Human,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954465,Oyster,Oyster,Ireland,2012,2013,14,302,GII.4
+KC954466,Oyster,Oyster,Ireland,2012,2013,14,302,GII.1
+KC954467,Oyster,Oyster,Ireland,2012,2013,14,302,GII.3
+KC954468,Oyster,Oyster,Ireland,2012,2013,14,302,GII.6
+KC954469,Oyster,Oyster,Ireland,2012,2013,14,302,GII.6
+KC954470,Oyster,Oyster,Ireland,2012,2013,14,302,GII.7
+KC954471,Oyster,Oyster,Ireland,2012,2013,14,302,GII.7
+KC954472,Oyster,Oyster,Ireland,2012,2013,14,302,GII.1
+MLT1_1_07_23457_seq_1,Human,Oyster,Italy,2007,2007,Noronet,191,GII.4
+MLT1_1_07_23457_seq_2,Human,Oyster,Italy,2007,2007,Noronet,183,
+OB-12-103105-AK-314_37954_seq_1,,Oyster,New Zealand,2012,2012,Noronet,172,
+OB-12-103105-AK-314_37954_seq_2,,Oyster,New Zealand,2012,2012,Noronet,283,GII.13
+OB-12-103157-TG-355-_GI_37961_,Human,Oyster,New Zealand,2012,2012,Noronet,275,GI.3
+OB-12-103157-TG-355-GII_37960_1,Human,Oyster,New Zealand,2012,2012,Noronet,172,
+OB-12-103157-TG-355-GII_37960_2,Human,Oyster,New Zealand,2012,2012,Noronet,262,GII.5
+OB-12-103157-TG-362_37962_seq_1,Human,Oyster,New Zealand,2012,2012,Noronet,172,
+OB-12-103157-TG-362_37962_seq_2,Human,Oyster,New Zealand,2012,2012,Noronet,283,GII.12
+OB-12-103157-TG-363_37963_seq_1,Human,Oyster,New Zealand,2012,2012,Noronet,147,
+OB-12-103157-TG-363_37963_seq_2,Human,Oyster,New Zealand,2012,2012,Noronet,295,GI.3
+OB-12-103157-TG-364_37964_seq_1,Human,Oyster,New Zealand,2012,2012,Noronet,147,
+OB-12-103157-TG-364_37964_seq_2,Human,Oyster,New Zealand,2012,2012,Noronet,296,GI.3
+OB-12-103157-TG-368_37965_seq_1,Human,Oyster,New Zealand,2012,2012,Noronet,173,
+OB-12-103157-TG-368_37965_seq_2,Human,Oyster,New Zealand,2012,2012,Noronet,233,GII.5
+OB-13-103750-AK-161_40818_seq_1,Human,Oyster,New Zealand,2013,2013,Noronet,172,
+OB-13-103750-AK-161_40818_seq_2,Human,Oyster,New Zealand,2013,2013,Noronet,295,GI.4
+SE_2004_01_11130_seq_1,Human,Oyster,Sweden,2004,2004,Noronet,291,GI.6
+SE_2004_01_11130_seq_2,Human,Oyster,Sweden,2004,2004,Noronet,284,
+SE2011_1148_34558_seq_1,Human,Oyster,Sweden,2011,2011,Noronet,282,GII.7
+SE2011_1165_36647_seq_1,Human,Oyster,Sweden,2011,2012,Noronet,291,GI.4
+SE2011_1165_36647_seq_2,Human,Oyster,Sweden,2011,2012,Noronet,338,GII.3
+SE2011_1165_36647_seq_3,Human,Oyster,Sweden,2011,2012,Noronet,285,
+SE2011_1206_36688_seq_1,Human,Oyster,Sweden,2011,2012,Noronet,291,GI.1
+TAR1711_39478_seq_1,Human,Oyster,Spain,2011,2013,Noronet,279,GII.6
+TAR1711b_39479_seq_1,Human,Oyster,Spain,2011,2013,Noronet,274,GII.4
+TAS5156_42848_seq_1,Human,Oyster,Australia,2013,2014,Noronet,266,GII.1
+TH0103_10320_seq_1,Human,Oyster,France,2002,2003,Noronet,291,GI.4
+TH0103_10320_seq_2,Human,Oyster,France,2002,2003,Noronet,69,
+U34381,Human,Oyster,New Zealand,1995,1995,Unpublished,332,
+U46039,Human,Oyster,New Zealand,1995,1995,Unpublished,1698,GII.3
+UTE0610_39448_seq_1,Human,Oyster,Spain,2010,2013,Noronet,256,GII.12
+UVEVV12211_39482_seq_1,Human,Oyster,Spain,2011,2013,Noronet,316,GII.4
+UVEVV12211b_42069_seq_1,Human,Oyster,Spain,2011,2013,Noronet,316,GII.4
+UVEVV12211c_42082_seq_1,Human,Oyster,Spain,2011,2013,Noronet,274,GII.4
+UVEVV12611_42053_seq_1,Human,Oyster,Spain,2011,2013,Noronet,194,GII.4
+VWA_O13-326_43482_seq_1,Oyster,Oyster,Netherlands,2013,2014,Noronet,195,
+VWA_O13-326_43482_seq_2,Oyster,Oyster,Netherlands,2013,2014,Noronet,203,GI.4
+VWA_O13-749ABCD_43478_seq_1,Oyster,Oyster,Netherlands,2013,2014,Noronet,195,
+VWA_O13-749ABCD_43478_seq_2,Oyster,Oyster,Netherlands,2013,2014,Noronet,195,
+VWA_O13-749ABCD_43478_seq_3,Oyster,Oyster,Netherlands,2013,2014,Noronet,195,
+VWA_O13-749ABCD_43478_seq_4,Oyster,Oyster,Netherlands,2013,2014,Noronet,204,GI.4
+VWA_O13-832_43476_seq_1,Oyster,Oyster,Netherlands,2013,2014,Noronet,195,
+VWA_O-872_43479_seq_1,Oyster,Oyster,Netherlands,2013,2014,Noronet,195,
+AB186057,Human,oyster,Japan,2002,2004,16,290,GI.7
+AB186058,Human,oyster,Japan,2002,2004,16,278,GII.3
+AB186059,Human,oyster,Japan,2002,2004,16,278,GII.3
+AB186060,Human,oyster,Japan,2002,2004,16,278,GII.5
+AB186061,Human,oyster,Japan,2002,2004,16,278,GII.12
+AB186062,Human,oyster,Japan,2002,2004,16,278,GII.12
+AB186064,Human,oyster,Japan,2002,2004,16,278,GII.4
+AB186066,Human,oyster,Japan,2002,2004,16,278,GII.3
+AB186067,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186068,Human,oyster,Japan,2003,2004,16,290,GI.7
+AB186069,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186070,Human,oyster,Japan,2003,2004,16,290,GI.7
+AB186071,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186072,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186073,Human,oyster,Japan,2003,2004,16,290,GI.7
+AB186074,Human,oyster,Japan,2003,2004,16,278,GII.6
+AB186075,Human,oyster,Japan,2003,2004,16,290,GI.4
+AB186076,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186077,Human,oyster,Japan,2003,2004,16,278,GII.1
+AB186078,Human,oyster,Japan,2003,2004,16,290,GI.7
+AB186079,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186080,Human,oyster,Japan,2003,2004,16,290,GI.2
+AB186081,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186082,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186083,Human,oyster,Japan,2003,2004,16,290,GI.4
+AB186084,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186085,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186086,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186087,Human,oyster,Japan,2003,2004,16,290,GI.4
+AB186088,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186089,Human,oyster,Japan,2003,2004,16,290,GI.6
+AB186090,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186091,Human,oyster,Japan,2003,2004,16,290,GI.7
+AB186092,Human,oyster,Japan,2003,2004,16,278,GII.16
+AB186093,Human,oyster,Japan,2003,2004,16,278,GII.16
+AB186094,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186095,Human,oyster,Japan,2003,2004,16,290,GI.5
+AB186096,Human,oyster,Japan,2003,2004,16,290,GI.4
+AB186097,Human,oyster,Japan,2003,2004,16,278,GII.8
+AB186098,Human,oyster,Japan,2003,2004,16,278,GII.13
+AB186099,Human,oyster,Japan,2003,2004,16,278,GII.8
+AB186100,Human,oyster,Japan,2003,2004,16,278,GII.8
+AB186101,Human,oyster,Japan,2003,2004,16,290,GI.1
+AB186102,Human,oyster,Japan,2003,2004,16,278,GII.8
+AB186103,Human,oyster,Japan,2003,2004,16,278,GII.6
+AB186104,Human,oyster,Japan,2003,2004,16,278,GII.16
+AB186105,Human,oyster,Japan,2003,2004,16,278,GII.3
+AB186106,Human,oyster,Japan,2003,2004,16,278,GII.5
+AB186107,Human,oyster,Japan,2003,2004,16,278,GII.6
+DQ452538,Human,oyster,Canada,2003,2006,9,172,
+DQ452539,Human,oyster,Canada,2003,2006,9,172,
+DQ452540,Human,oyster,Canada,2003,2006,9,172,
+DQ452541,Human,oyster,Canada,2003,2006,9,172,
+DQ452542,Human,oyster,Canada,2004,2006,9,172,
+DQ452543,Human,oyster,Canada,2004,2006,9,172,
+DQ452544,Human,oyster,Canada,2004,2006,9,172,
+DQ452545,Human,oyster,Canada,2004,2006,9,172,
+DQ452546,Human,oyster,Canada,2004,2006,9,172,
+DQ452547,Human,oyster,Canada,2004,2006,9,172,
+JN896704,Oyster,Oyster,Canada,2010,2011,15,222,GII.20
+JN896705,Oyster,Oyster,Canada,2010,2011,15,264,GI.4
+JQ280400,Human,oyster,Ireland,2010,2013,3,277,GII.4
+JQ280401,Human,oyster,Ireland,2010,2013,3,277,GII.4
+JQ280402,Human,oyster,Ireland,2010,2013,3,277,GII.4
+JQ280403,Human,oyster,Ireland,2010,2013,3,277,GII.13
+JQ280404,Human,oyster,Ireland,2010,2013,3,277,GII.4
+JQ280405,Human,oyster,Ireland,2010,2013,3,277,GII.4
+JQ280406,Human,oyster,Ireland,2010,2013,3,277,GII.4
+JQ280407,Human,oyster,Ireland,2010,2013,3,289,GI.6
